@@ -1,6 +1,6 @@
 # MarketGPT-Involve-AI
 
-##Accessing the Deployed Application
+## Accessing the Deployed Application
 To just access the application, go to this ***url***:
 
 <http://react-app-starter.s3-website-us-east-1.amazonaws.com/>
