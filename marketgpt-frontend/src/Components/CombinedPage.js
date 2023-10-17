@@ -39,7 +39,7 @@ export function CombinedPage() {
     setLoading(true);
     setResponse(null);
     setActiveRequest('market');
-    axios.post('http://localhost:8000/market/',{company: inputValue})
+    axios.post('https://ix3nhpxoma6575lei4s5wf3sua0pxizq.lambda-url.us-east-1.on.aws/market/',{company: inputValue})
       .then((data) => {
         setResponse(data.data);
         setLoading(false);
@@ -53,7 +53,7 @@ export function CombinedPage() {
     setLoading(true);
     setResponse(null);
     setActiveRequest('email');
-    axios.post('http://localhost:8000/email/', { company: inputValue })
+    axios.post('https://ix3nhpxoma6575lei4s5wf3sua0pxizq.lambda-url.us-east-1.on.aws/email/', { company: inputValue })
       .then((data) => {
         setResponse(data.data);
         setLoading(false);
@@ -67,7 +67,7 @@ export function CombinedPage() {
     setLoading(true);
     setResponse(null);
     setActiveRequest('tweet');
-    axios.post('http://localhost:8000/tweets/', { plugin: inputValue })
+    axios.post('https://ix3nhpxoma6575lei4s5wf3sua0pxizq.lambda-url.us-east-1.on.aws/tweets/', { plugin_name: inputValue })
       .then((data) => {
         setResponse(data.data);
         setLoading(false);
@@ -131,7 +131,7 @@ function MarketResponseComponent({ response }) {
   return (
     <div>
       <Divider />
-      <h1> Main Market: {response.market}</h1>
+      <h1> Main Market: {response.industry}</h1>
       <TableContainer component={Paper}>
         <Table aria-label="simple table">
           <TableHead>
