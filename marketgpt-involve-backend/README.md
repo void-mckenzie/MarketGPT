@@ -1,5 +1,3 @@
-When using the Mangum adapter, you're essentially adapting FastAPI (an ASGI app) to run on AWS Lambda and connect through API Gateway. Given this additional context, I'll modify the deployment instructions to include the Mangum adapter.
-
 ## Market GPT Deployment to AWS Lambda with Mangum: README.md
 
 ### Prerequisites
