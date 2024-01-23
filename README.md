@@ -1,4 +1,4 @@
-# MarketGPT-Involve-AI
+# MarketGPT
 
 ## Accessing the Deployed Application
 To just access the application, go to this ***url***:
